@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule} from '@fortawesome/angular-fontawesome';
-import { faBookOpen, faMapLocation, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faUserGraduate } from '@fortawesome/free-solid-svg-icons';
+import { faLandmark, faBars, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBookmark } from '@fortawesome/free-solid-svg-icons';
+import {faCalendar, faCalendarCheck } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -10,8 +11,10 @@ import { faUserGraduate } from '@fortawesome/free-solid-svg-icons';
   styleUrl: './home.css'
 })
 export class Home {
-  faBookOpen = faBookOpen;
-  faMapLocation = faMapLocation
-  faUserGraduate = faUserGraduate;
+  faLandmark = faLandmark;
+  faBars = faBars;
+  faBookmark = faBookmark;
   faUser = faUser;
+  faCalendar = faCalendar;
+  faCalendarCheck = faCalendarCheck;
 }

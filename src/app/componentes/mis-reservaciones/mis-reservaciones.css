@@ -1,0 +1,17 @@
+.titl{
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #3f06cf;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #4609e0;
+}
+
+h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: #333333;
+    border: .5px solid #462cda;
+    font-size: small;
+}

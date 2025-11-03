@@ -7,6 +7,7 @@ import { Horarios } from './componentes/horarios/horarios';
 import { Usuarios } from './componentes/usuarios/usuarios';
 import { Administradores } from './componentes/administradores/administradores';
 import { Reservaciones } from './componentes/reservaciones/reservaciones';
+import { MisReservaciones } from './componentes/mis-reservaciones/mis-reservaciones';
 
 
 export const routes: Routes = [
@@ -18,5 +19,6 @@ export const routes: Routes = [
     {path: 'horarios', component: Horarios},
     {path: 'usuarios', component: Usuarios},
     {path: 'administradores', component: Administradores},
-    {path: 'reservaciones', component: Reservaciones}
+    {path: 'reservaciones', component: Reservaciones},
+    {path: 'mis-reservaciones', component: MisReservaciones}
 ];
