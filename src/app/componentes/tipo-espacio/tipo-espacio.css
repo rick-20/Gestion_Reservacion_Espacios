@@ -1,68 +1,35 @@
-.titl{
-  text-align: center;
-  color: #ffffff;
-  border: 2px solid #3f06cf;
-  padding: 10px;
-  font-family: sans-serif;
-  background-color: #4609e0;
-}
+ body {
+        background-color: #f5f5f5;
+      }
 
-h2{
-  text-align: center;
-  font-family: sans-serif;
-  color: #333333;
-  border: .5px solid #462cda;
-  font-size: 15px;
-  font-style: italic;
-}
+      /* Usaremos una clase genérica para reemplazar el estilo de 'section' */
+      .contenedor-principal {
+        max-width: 800px;
+        /* Centrado. Se usa 'auto' para los márgenes laterales. */
+        margin: 20px auto; 
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
 
-body {
-  background-color: #f5f5f5;
-}
+      h1 {
+        background-color: #0d6efd; /* azul Bootstrap */
+        color: white;
+        padding: 15px;
+        border-radius: 10px 10px 0 0; /* Bordes redondeados solo arriba */
+        /* Elimina el margen inferior para pegar el h1 al h2. */
+        margin-bottom: 0; 
+      }
 
-
-.btn {
-  min-width: 100px;
-}
-
-section{
-  background-color: white;
-  border-radius: 10px;
-}
-
-.agrega{
-  font-weight: bold;
-  border: #333333;
-  padding: 5px;
-}
-
-.tabl{
-  border: #333333;
-  padding: 5px;
-  
-}
-
-.tablita, th, td {
-  width: 50%;
-  border: 2px solid #333333;
-  border-collapse: collapse;
-}
-
-.botones{
-  border: #333333;
-  padding: 5px;
-  text-align: center;
-    margin: 5px;
-
-}
-
-h1 {
-  background-color: #0d6efd; /* azul Bootstrap */
-  color: white;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-body{
-  align-self: start;
-}
+      h2 {
+        font-size: 15px;
+        color: #555;
+        font-style: italic;
+        /* Quita todos los márgenes del h2 (para quitar la "línea"). */
+        margin: 0; 
+        /* Añade padding y un fondo claro para la descripción. */
+        padding: 10px 15px; 
+        background-color: #f8f9fa; 
+        border-radius: 0 0 10px 10px; 
+      }
